@@ -1,6 +1,6 @@
-# Meteora TN — Tamil Nadu Weather
+# Meteora — Weather
 
-Premium, responsive weather experience for Tamil Nadu built with React, TypeScript, Vite, Framer Motion, Recharts and the Open-Meteo APIs.
+Premium, responsive weather experience built with React, TypeScript, Vite, Framer Motion, Recharts and the Open-Meteo APIs.
 
 ## Run locally
 

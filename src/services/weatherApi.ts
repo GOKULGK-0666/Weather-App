@@ -28,6 +28,6 @@ export async function fetchWeather(location: Location): Promise<WeatherData> {
   }
 }
 
-export const defaultLocation: Location = { name: 'Hosur', country: 'India', admin1: 'Tamil Nadu', latitude: 12.7409, longitude: 77.8253 }
-export const tnCities: Location[] = [
-  ['Chennai',13.0827,80.2707],['Coimbatore',11.0168,76.9558],['Madurai',9.9252,78.1198],['Tiruchirappalli',10.7905,78.7047],['Salem',11.6643,78.146],['Tirunelveli',8.7139,77.7567],['Erode',11.341,77.7172],['Vellore',12.9165,79.1325],['Thoothukudi',8.7642,78.1348],['Thanjavur',10.787,79.1378],['Dindigul',10.3673,77.9803],['Tiruppur',11.1085,77.3411],['Hosur',12.7409,77.8253],['Ooty',11.4102,76.695],['Kodaikanal',10.2381,77.4892],['Rameswaram',9.2885,79.3127],['Puducherry',11.9416,79.8083]].map(([name, latitude, longitude]) => ({ name: String(name), country: 'India', admin1: 'Tamil Nadu', latitude: Number(latitude), longitude: Number(longitude) }))
+export const defaultLocation: Location = { name: 'Hosur', country: 'India', admin1: 'India', latitude: 12.7409, longitude: 77.8253 }
+export const supportedCities: Location[] = [
+  ['Chennai',13.0827,80.2707],['Coimbatore',11.0168,76.9558],['Madurai',9.9252,78.1198],['Tiruchirappalli',10.7905,78.7047],['Salem',11.6643,78.146],['Tirunelveli',8.7139,77.7567],['Erode',11.341,77.7172],['Vellore',12.9165,79.1325],['Thoothukudi',8.7642,78.1348],['Thanjavur',10.787,79.1378],['Dindigul',10.3673,77.9803],['Tiruppur',11.1085,77.3411],['Hosur',12.7409,77.8253],['Ooty',11.4102,76.695],['Kodaikanal',10.2381,77.4892],['Rameswaram',9.2885,79.3127],['Puducherry',11.9416,79.8083]].map(([name, latitude, longitude]) => ({ name: String(name), country: 'India', admin1: 'India', latitude: Number(latitude), longitude: Number(longitude) }))
